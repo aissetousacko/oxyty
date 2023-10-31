@@ -1,51 +1,37 @@
-/**
-* TODO : import the components sass files
-*/
 @import './settings.scss';
+@import './components/navbar';
 
-/*
-* style of the page
-**/
+/**
+* Style of others elemnts in the homepage
+*/
 
-.navbar {
-  background-color: $color2;
+.banner {
+  background-color: black;
   display: flex;
-  align-items: center;
-  justify-content: center;
-  font-family: $font-title;
 
-  img {
-    margin: 10px;
-
-    width: 180px;
-    height: 50px;
-  }
-
-  &__list {
-    width: 75%;
-    margin: 0 80px;
+  &__left {
+    color: white;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 140px 60px;
 
-  &__items:hover {
-    // outline: 2px solid $color1;
-    background-color: $color1;
-    outline: solid $color1 1em;
-  }
-
-  &__subscribe {
-    background-color: $color1;
-    font-weight: 600;
-    display: flex;
-    align-items: center;
-    margin: 20px 40px;
-    padding: 20px;
-
-    &:hover {
-      background-color: $color2;
-      outline: solid $color1 3px;
+    h1 {
+      color: $color1;
+      font-family: $font-body;
+      font-size: 65px;
     }
   }
+
+  &__right {
+    img {
+      width: 850px;
+    }
+  }
+}
+
+.button {
+  background-color: $color1;
+  color: black;
+  border-radius: 50px;
 }

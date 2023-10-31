@@ -1,0 +1,51 @@
+/**
+* TODO : import the components sass files
+*/
+@import './settings.scss';
+
+/*
+* style of the page
+**/
+
+.navbar {
+  background-color: $color2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: $font-title;
+
+  img {
+    margin: 10px;
+
+    width: 180px;
+    height: 50px;
+  }
+
+  &__list {
+    width: 75%;
+    margin: 0 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__items:hover {
+    // outline: 2px solid $color1;
+    background-color: $color1;
+    outline: solid $color1 1em;
+  }
+
+  &__subscribe {
+    background-color: $color1;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    margin: 20px 40px;
+    padding: 20px;
+
+    &:hover {
+      background-color: $color2;
+      outline: solid $color1 3px;
+    }
+  }
+}

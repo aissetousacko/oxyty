@@ -15,7 +15,7 @@ function App() {
             familiale et conviviable qui vous attend !
           </p>
           {/* component button */}
-          <Button text="S'INSCRIRE" />
+          <Button text="INSCRIVEZ-VOUS !" />
         </div>
 
         <div className="banner__right">

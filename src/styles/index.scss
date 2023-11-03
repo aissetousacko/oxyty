@@ -1,5 +1,6 @@
 @import './settings.scss';
 @import './components/navbar';
+@import './components/button';
 
 /**
 * Style of others elemnts in the homepage
@@ -10,28 +11,38 @@
   display: flex;
 
   &__left {
+    width: 50%;
     color: white;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    margin: 140px 60px;
+    margin: 145px 20px 145px 50px;
 
     h1 {
       color: $color1;
       font-family: $font-body;
-      font-size: 65px;
+      font-size: 64px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: normal;
+      margin-bottom: 10px;
+    }
+
+    h2 {
+      font-size: 32px;
+      margin-bottom: 35px;
+    }
+
+    p {
+      font-size: 24px;
+      font-weight: 400;
+      margin-bottom: 75px;
     }
   }
 
   &__right {
     img {
-      width: 850px;
+      overflow: hidden;
     }
   }
-}
-
-.button {
-  background-color: $color1;
-  color: black;
-  border-radius: 50px;
 }

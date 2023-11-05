@@ -2,6 +2,7 @@ import Button from './components/Button'
 import Navbar from './components/Navbar'
 import imgWoman from './assets/oxyty_woman.png'
 import arrowRight from './assets/arrow-right.png'
+import fitnessImg from './assets/cours_fitness.png'
 
 function App() {
   return (
@@ -51,6 +52,30 @@ function App() {
           <p className="discount__title discount__title--card3">
             GARDONS LE LIEN ET RDV SUR NOS RÉSEAUX SOCIAUX
           </p>
+        </div>
+      </div>
+
+      <div className="section1">
+        <div className="section1__left">
+          <img src={fitnessImg} alt="Cours fitness" />
+        </div>
+
+        <div className="section1__right">
+          <h1 className="section1__title">VIVEZ LE SPORT 100% LIBERTÉ</h1>
+          <h3 className="section1__subtitle">
+            Fitness, musculation et remise en forme
+          </h3>
+          <p className="section1__text">
+            Concept novateur de club de fitness Premium, Oxyty Sports Club
+            Saint-Ouen-l’Aumône propose un service de proximité à taille humaine
+            depuis plus de 5 ans. Sur une surface de 550m2, nous apportons une
+            bulle d’oxygène au coeur du parc d’entreprises de
+            Saint-Ouen-l’Aumône. Nous dédions notre passion à votre remise en
+            forme et à l’atteinte de vos objectifs avec l’accompagnement de nos
+            coachs diplômés d’État.
+          </p>
+
+          <Button text="DÉCOUVRIR LE CLUB" />
         </div>
       </div>
     </div>

@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Hind:wght@300;400;500;600&family=Montserrat:wght@400;500;600;700&display=swap');
 
-$font-title: 'Hind', sans-serif;
-$font-body: 'Montserrat', sans-serif;
+$font-hind: 'Hind', sans-serif;
+$font-montserrat: 'Montserrat', sans-serif;
 
 $color1: #b5d333;
 $color2: #f0f6d6;
@@ -15,13 +15,13 @@ $color2: #f0f6d6;
 body {
   // background: $color1;
   background: white;
-  font-family: $font-body;
+  font-family: $font-montserrat;
   font-style: normal;
   font-weight: 500;
 }
 
 h1 {
-  font-family: $font-title;
+  font-family: $font-hind;
 }
 
 li {

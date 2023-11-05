@@ -1,6 +1,7 @@
 @import './settings.scss';
 @import './components/navbar';
 @import './components/button';
+@import './components/footer';
 
 /**
 * Style of others elemnts in the homepage
@@ -104,8 +105,7 @@
   }
 }
 
-.section1,
-.section2 {
+.section1 {
   background-color: $color2;
   display: flex;
   padding: 55px 40px;
@@ -213,6 +213,8 @@
   background-color: black;
   color: white;
   margin-top: 230px;
+  padding: 40px;
+  display: flex;
 
   &__left {
     padding: 0 20px;
@@ -226,5 +228,23 @@
       position: relative;
       bottom: 31%;
     }
+  }
+
+  &__title {
+    font-size: 36px;
+    font-weight: 700;
+    font-family: $font-montserrat;
+  }
+
+  &__subtitle {
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 40px;
+  }
+
+  &__text {
+    font-size: 20px;
+    font-family: $font-hind;
+    margin-bottom: 70px;
   }
 }

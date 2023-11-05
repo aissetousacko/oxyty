@@ -13,6 +13,7 @@ import muscu from './assets/muscu.png'
 import coaching from './assets/coaching.png'
 import premium from './assets/premium.png'
 import imgMan from './assets/oxyty_man.png'
+import Footer from './components/Footer'
 
 function App() {
   return (
@@ -173,6 +174,8 @@ function App() {
           <img src={imgMan} alt="Man runner" />
         </div>
       </div>
+
+      <Footer />
     </div>
   )
 }

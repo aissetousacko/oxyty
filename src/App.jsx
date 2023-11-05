@@ -12,6 +12,7 @@ import coursCollectif from './assets/cours_collectif.png'
 import muscu from './assets/muscu.png'
 import coaching from './assets/coaching.png'
 import premium from './assets/premium.png'
+import imgMan from './assets/oxyty_man.png'
 
 function App() {
   return (
@@ -150,6 +151,26 @@ function App() {
             <img src={premium} alt="Image serviice premium" />
             <p className="activities__text">SERVICE PREMIUM</p>
           </div>
+        </div>
+      </div>
+
+      <div className="section2">
+        <div className="section2__left">
+          <h1 className="section2__title">LE CONCEPT OXYTY</h1>
+          <h3 className="section2__subtitle">100% PASSION</h3>
+          <p className="section2__text">
+            Chez Oxyty Sports Club, nous sommes des passionnés ! Chaque jour,
+            vous nous inspirez et nous vous le rendons au maximum. L’envie de
+            partager notre passion pour le fitness, de vous voir progresser est
+            une source inépuisable qui nous anime au quotidien. Rejoignez le
+            mouvement et découvrez notre philosophie !
+          </p>
+
+          <Button text="REJOIGNEZ-NOUS !" />
+        </div>
+
+        <div className="section2__right">
+          <img src={imgMan} alt="Man runner" />
         </div>
       </div>
     </div>

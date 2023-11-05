@@ -4,6 +4,7 @@
   align-items: center;
   justify-content: center;
   font-family: $font-hind;
+  padding: 0 15px;
 
   img {
     margin: 10px;
@@ -29,6 +30,7 @@
   &__subscribe {
     background-color: $color1;
     font-weight: 600;
+    font-size: 22px;
     display: flex;
     align-items: center;
     margin: 20px 40px;

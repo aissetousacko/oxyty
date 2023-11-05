@@ -8,6 +8,10 @@ import iconeUsers from './assets/icone_users.png'
 import iconeStar from './assets/icone_star.png'
 import iconeLock from './assets/icone_lock.png'
 import iconeBox from './assets/icone_box.png'
+import coursCollectif from './assets/cours_collectif.png'
+import muscu from './assets/muscu.png'
+import coaching from './assets/coaching.png'
+import premium from './assets/premium.png'
 
 function App() {
   return (
@@ -119,6 +123,33 @@ function App() {
             ADAPTABLES
           </h2>
           <p className="recap__subtitle">100% SIMPLICITÉ</p>
+        </div>
+      </div>
+
+      <div className="activities">
+        <h1 className="activities__title">ACTIVITÉS</h1>
+        <h2 className="activities__subtitle">UNE OFFRE DE SERVICES COMPLÈTE</h2>
+
+        <div className="activities__cards">
+          <div className="activities__card">
+            <img src={coursCollectif} alt="Image cours collectif" />
+            <p className="activities__text">COURS COLLECTIFS</p>
+          </div>
+
+          <div className="activities__card">
+            <img src={muscu} alt="Image musculation" />
+            <p className="activities__text">ESPACE CARDIO MUSCULAIRE</p>
+          </div>
+
+          <div className="activities__card">
+            <img src={coaching} alt="Image coaching" />
+            <p className="activities__text">COACHING SANTÉ</p>
+          </div>
+
+          <div className="activities__card">
+            <img src={premium} alt="Image serviice premium" />
+            <p className="activities__text">SERVICE PREMIUM</p>
+          </div>
         </div>
       </div>
     </div>

@@ -3,6 +3,11 @@ import Navbar from './components/Navbar'
 import imgWoman from './assets/oxyty_woman.png'
 import arrowRight from './assets/arrow-right.png'
 import fitnessImg from './assets/cours_fitness.png'
+import iconeRun from './assets/icone_run.png'
+import iconeUsers from './assets/icone_users.png'
+import iconeStar from './assets/icone_star.png'
+import iconeLock from './assets/icone_lock.png'
+import iconeBox from './assets/icone_box.png'
 
 function App() {
   return (
@@ -76,6 +81,44 @@ function App() {
           </p>
 
           <Button text="DÉCOUVRIR LE CLUB" />
+        </div>
+      </div>
+
+      <div className="recap">
+        <div className="recap__card">
+          <img src={iconeRun} alt="Icône course" />
+          <h2 className="recap__title">50 COURS</h2>
+          <p className="recap__subtitle">100% MOTIVATION</p>
+        </div>
+
+        <div className="recap__card">
+          <img src={iconeUsers} alt="Icône course" />
+          <h2 className="recap__title">6 COACHS</h2>
+          <p className="recap__subtitle">100% HUMAIN</p>
+        </div>
+
+        <div className="recap__card">
+          <img src={iconeStar} alt="Icône course" />
+          <h2 className="recap__title">PREMIUM</h2>
+          <p className="recap__subtitle">100% QUALITÉ</p>
+        </div>
+
+        <div className="recap__card">
+          <img src={iconeLock} alt="Icône course" />
+          <h2 className="recap__title">
+            AVEC ET SANS <br />
+            ENGAGEMENT
+          </h2>
+          <p className="recap__subtitle">100% LIBERTÉ</p>
+        </div>
+
+        <div className="recap__card">
+          <img src={iconeBox} alt="Icône course" />
+          <h2 className="recap__title">
+            FORMULES <br />
+            ADAPTABLES
+          </h2>
+          <p className="recap__subtitle">100% SIMPLICITÉ</p>
         </div>
       </div>
     </div>
